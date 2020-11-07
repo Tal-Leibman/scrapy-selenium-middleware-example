@@ -1,0 +1,11 @@
+1604744112190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAaUZjH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604744113807	Marionette	INFO	Listening on port 45603
+1604744113911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604744113913	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:35939","noProxy":[],"sslProxy":"127.0.0.1:35939"}
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.ynet.co.il/home/0,7340,L-8,00.html, line 1: ReferenceError: setNptTechAdblockerCookie is not defined
+JavaScript error: javascript:'<html><head></head><body><SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/trackimpj/N485001.2069703TABOOLA/B24390839.277412589;dc_trk_aid=471555555;dc_trk_cid=134809558;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?"></SCRIPT></body></html>', line 1: SyntaxError: unexpected token: identifier
+JavaScript error: https://www.ynet.co.il/home/0,7340,L-8,00.html, line 17: ReferenceError: osdlfm is not defined
+1604744163033	Marionette	INFO	Stopped listening on port 45603
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileAaUZjH/protections.sqlite
