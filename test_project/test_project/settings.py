@@ -12,5 +12,5 @@ SELENIUM_PROXY = None
 SELENIUM_USER_AGENT = "User-Agent: Mozilla/5.0"
 # a list of regular expression to record the incoming requests by matching the url
 # recorded requests can be found on driver.requests property
-SELENIUM_REQUEST_RECORD_SCOPE = []
+SELENIUM_REQUEST_RECORD_SCOPE = [".*"] # This will record all requests
 SELENIUM_FIREFOX_PROFILE_SETTINGS = {}
